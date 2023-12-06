@@ -1,0 +1,59 @@
+
+
+$primary: #A92C29;
+$secondary: #9FDDFF;
+
+.carousel {
+    position: relative;
+    height:700px;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height:700px;
+  }
+  .carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+    height:700px;
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+    height:700px;
+  }
+
+
+    .text-over-img {
+    z-index:1;
+    font-size: 1.2em;
+    margin-top: -100px;
+    }
+
+    h1{
+      font-size: 1150%;
+    }
+
+    body {
+      margin: 0;
+      font-size: var(--bs-body-font-size);
+      font-weight: var(--bs-body-font-weight);
+      line-height: var(--bs-body-line-height);
+      color: var(--bs-body-color);
+      text-align: var(--bs-body-text-align);
+      background-color: var(--bs-body-bg);
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      font-family: 'Combo', sans-serif !important;
+    }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
