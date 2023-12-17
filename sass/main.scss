@@ -1,7 +1,7 @@
 
 
-$primary: #A92C29;
-$secondary: #9FDDFF;
+$primary: #75C7C7;
+$secondary: #CCA58E;
 
 .carousel {
     position: relative;
@@ -56,4 +56,107 @@ $secondary: #9FDDFF;
       font-family: 'Combo', sans-serif !important;
     }
 
+    .nav {
+      --bs-nav-link-padding-x: 1rem;
+      --bs-nav-link-padding-y: 0.5rem;
+      --bs-nav-link-font-weight: ;
+      --bs-nav-link-color: var(--bs-link-color);
+      --bs-nav-link-hover-color: var(--bs-link-hover-color);
+      --bs-nav-link-disabled-color: var(--bs-secondary-color);
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      max-height: 100px;
+    }
+    
+    .card-index{
+      --bs-card-spacer-y: 1rem;
+      --bs-card-spacer-x: 1rem;
+      --bs-card-title-spacer-y: 0.5rem;
+      --bs-card-title-color: ;
+      --bs-card-subtitle-color: ;
+      --bs-card-border-width: var(--bs-border-width);
+      --bs-card-border-color: var(--bs-border-color-translucent);
+      --bs-card-border-radius: var(--bs-border-radius);
+      --bs-card-box-shadow: ;
+      --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+      --bs-card-cap-padding-y: 0.5rem;
+      --bs-card-cap-padding-x: 1rem;
+      --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+      --bs-card-cap-color: ;
+      --bs-card-height: ;
+      --bs-card-color: ;
+      --bs-card-bg: var(--bs-body-bg);
+      --bs-card-img-overlay-padding: 1rem;
+      --bs-card-group-margin: 0.75rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      color: var(--bs-body-color);
+      word-wrap: break-word;
+      background-color: var(--bs-card-bg);
+      background-clip: border-box;
+      border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+      border-radius: var(--bs-card-border-radius);
+      max-width: 80%;
+    }
+
+    .card-index-img-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: var(--bs-card-index-img-overlay-padding);
+      border-radius: var(--bs-card-index-inner-border-radius);
+      max-width: 80%;
+
+    }
+    
+    .card-index-img,
+    .card-index-img-top,
+    .card-index-img-bottom {
+      width: 100%;
+    }
+    
+    .card-index-img,
+    .card-index-img-top {
+      border-top-left-radius: var(--bs-card-index-inner-border-radius);
+      border-top-right-radius: var(--bs-card-index-inner-border-radius);
+    }
+    
+    .card-index-img,
+    .card-index-img-bottom {
+      border-bottom-right-radius: var(--bs-card-index-inner-border-radius);
+      border-bottom-left-radius: var(--bs-card-index-inner-border-radius);
+    }
+    .card-total{
+      padding-top: 80px;
+      width:100%;
+      
+    }
+
+    .overlay-text {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding-bottom: 50px;
+      padding-right: 50px;
+      color: #fff; /* Text color */
+    }
+    
+    .right-angle-triangle {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-top: 350px solid transparent;
+      border-left: 350px solid $primary; /* Primary color */
+      transform: scaleX(-1);
+
+    }
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

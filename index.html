@@ -18,62 +18,54 @@
 
 <!-- NAVBAR-->
 
-    <nav class="navbar fixed-top bg-primary fixed-top ">
-        <div class="container-fluid">
-          <h1><strong>
-          <a class="navbar-brand text-white" href="#"><img src="images/logo.png" class="img-fluid" alt="Logo" style="height: 90px; width: 90px;"></a>
-        </h1></strong>
-          
-            <ul class="navbar-nav list-group-horizontal padding:20px .text-warning">
-              <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-  
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle .text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Text
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item text-warning" href="#">Types</a></li>
-                  <li><a class="dropdown-item" href="#">Size</a></li>
-                  <li><a class="dropdown-item" href="#">Font</a></li>
-                </ul>
-              </li>
-  
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Colour
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Colour List</a></li>
-                  <li><a rel class="containers_example" href="containers_example">Backgrounds</a></li>
-  
-                  <li><a class="dropdown-item" href="#">happy!</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Unactive Section</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          
-        </div>
-      </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="images/logo.png" src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
   </head>
-  <body class="bg-secondary">
+  <body class="bg-secondary ">
  
 
-    <div id="carouselExampleControls" class="carousel slide height:500px" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide height:500px d-flex," data-ride="carousel">
       <div class="carousel-inner height:500px">
         <div class="carousel-item active height:500px">
+
+
           <img class="d-block w-100" src="images/carousel1.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 style=font-size:70px>
+          <div class="carousel-caption d-none d-md-block ,">
+            <h1 style=font-size:1170px, >
               Choose from our wide range of freshly made meals...</h1>
             
           </div>
@@ -108,62 +100,63 @@
   
     <div>
 
-    <!-- BANNER IMAGE NOTE:MAKE INTO CAROUSEL LATER!!!!!!!!!-->
-
-    <img src="images/banner1.png" class="img-fluid w-100" alt="Banner Image">
 
     <!-- INTRODUCTION SECTION-->
 
-    <div class="introduction_section p-1">
-    <strong><h1 class="text-center"> Who Are We?</h1></strong>
-    <div class="container-sm bg-info rounded-pill">
-    <h4 class="text-center text-white width-50px p-3">We here at Dorm Depository are fully commited to getting our countrys students into accomidation hassle free! In times such as these, it can be quite a burden to even begin to find accomodation for third level education. But dont worry, were here to help!</h4>
+
+
+
+<div class="card-total d-flex justify-content-center">
+<div class="card-index bg-dark text-white width:50% d-flex justify-content-center">
+  <img class="card-index-img max-width:50%" src="images/wrap.jpeg" alt="Card image">
+  <div class="right-angle-triangle">
+  </div>
+
+  <div class="overlay-text">
+    <h1 class="card-index-title">Food</h1>
+
+  </div>
+</div>
 </div>
 
-<div class="row">
-    <div class="col-sm-4">
-
-<div class="card1" style="width: 18rem;">
-    <img src="images/intro-map.jpg" class="card-img-top" alt="Map">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-info text-white">Go somewhere</a>
+<div class="card-total d-flex justify-content-center">
+  <div class="card-index bg-dark text-white width:50% d-flex justify-content-center">
+    <img class="card-index-img max-width:50%" src="images/wrap.jpeg" alt="Card image">
+    <div class="right-angle-triangle">
     </div>
-</div>
   
-
-  <div class="col-sm-6">
-  <div class="card2" style=" width: 18rem;">
-    <img src="images/hanging-out-intro.jpg" class="card-img-top" alt="Hanging Out">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-info text-white">Go somewhere</a>
+    <div class="overlay-text">
+      <h1 class="card-index-title">Food</h1>
+  
     </div>
   </div>
   </div>
 
-
-  
-  <div class="col-sm-6">
-  <div class="card3" style="width: 18rem;">
-    <img src="images/room-intro.jpg" class="card-img-top" alt="Rooms">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-info text-white">Go somewhere</a>
+  <div class="card-total d-flex justify-content-center">
+    <div class="card-index bg-dark text-white width:50% d-flex justify-content-center">
+      <img class="card-index-img max-width:50%" src="images/wrap.jpeg" alt="Card image">
+      <div class="right-angle-triangle">
+      </div>
+    
+      <div class="overlay-text">
+        <h1 class="card-index-title">Food</h1>
+    
+      </div>
     </div>
     </div>
-  
-  </div>
 
-    </div>
-</div>
-
-
-
-
+    <div class="card-total d-flex justify-content-center">
+      <div class="card-index bg-dark text-white width:50% d-flex justify-content-center">
+        <img class="card-index-img max-width:50%" src="images/wrap.jpeg" alt="Card image">
+        <div class="right-angle-triangle">
+        </div>
+      
+        <div class="overlay-text">
+          <h1 class="card-index-title">Food</h1>
+      
+        </div>
+      </div>
+      </div>
 <!-- FOOTER-->
 <div class="footer p-1 bg-info height:500px">
 
