@@ -261,6 +261,25 @@ padding:60px;
 
 }
 
+.display-page{
+  width: 100%;
+}
 
+.content-container {
+  padding: 20px; /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+.img-display-page {
+  max-width: 700px;
+  max-height: 475px;
+}
+
+.text-block{
+  max-width: 280px;
+  padding: 40px;
+  border-style: outset;
+  
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

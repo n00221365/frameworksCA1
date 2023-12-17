@@ -247,6 +247,26 @@ body {
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
+.display-page {
+  width: 100%;
+}
+
+.content-container {
+  padding: 20px; /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+.img-display-page {
+  max-width: 700px;
+  max-height: 475px;
+}
+
+.text-block {
+  max-width: 280px;
+  padding: 40px;
+  border-style: outset;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
